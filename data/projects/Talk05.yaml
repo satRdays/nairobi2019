@@ -1,0 +1,15 @@
+# modalID: 1
+title: "Person5"
+# subtitle: "ffff"
+# date: 1970-01-01
+# startsAt: 00:00
+# endsAt: 00:01
+# img: norm.jpeg
+preview: face_ph.png
+client: 
+#clientLink: "http://stat.berkeley.edu/~ledell"
+# category: Category 1
+description: "[Personal Page]() | [Twitter]() <br>
+TBA
+"
+talk: true
