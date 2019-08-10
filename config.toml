@@ -1,0 +1,414 @@
+theme = "hugo-agency-theme"
+# Site settings
+baseurl = "https://nairobi2019.satrdays.org/"
+languageCode = "en-us"
+title = "satRday"
+#theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "satRday Nairobi"
+  description = "R conference in Nairobi"
+   email = ""
+
+  # Link custom assets relative to /static
+  custom_css = ["css/satrday.css"]
+  custom_js  = []
+  favicon    = "img/favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "satRday"
+    # Optional logo as brand stored in img/
+    logo = "logo.png"
+    services = "About"
+    portfolio = "Talks"
+    eventbrite = "Register"
+    schedule = "Schedule"
+    team = "People"
+    contact = "Get involved"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      #url = "http://satrdays.org/"
+      url = ""
+      name = "satRdays.org"
+      weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = ""
+    subtitle = "#NairobiR Conference"
+    bg = true
+    buttonText = "Tell me more"
+
+
+  # About [Services] section
+  [params.services]
+    enable = true
+    title = "About"
+    subtitle = "Conference Details"
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-clock-o"
+      title = "Details"
+      description = "TBA"
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-laptop"
+      title = "Hands on"
+      description = "Practical applications and workshop sessions"
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-graduation-cap"
+      title = "Learning"
+      description = "Gain knowledge from your peers and experienced professionals"
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-users"
+      title = "Community Lead"
+      description = "Community organised, community focussed"
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-money"
+      title = "Free"
+      description = "Confirm your presence atleast two weeks to conference date"
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-universal-access"
+      title = "Accessible"
+      description = "Supportive environment"
+      url = "#"
+
+  # Register section
+  # You only need ONE of these active
+  [params.tito]
+    enable = false
+    title = "Register"
+    bg = true
+    accountevent = "ultimateconf/2013"
+      # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
+      # include botht the account and event in a string, seperated by /, with no spaces
+
+   [params.eventbrite]
+    enable = true
+    title = "Register"
+    bg = true
+    eid= '60304583633'
+      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
+      # Follow instructions to discover your 'Website Integration' embeddable iframe
+      # Take ONLY the numeric string between "eid=" and "&ref=etckt"
+      # Supply this string as the value to `eid` above
+
+  [params.tickettailor]
+    enable = false
+    title = "Register"
+    bg = true
+    eventviewid = "162430"
+      # Go to www.tickettailor.com and open your event page
+      # Note the number at the end of the url e.g. https://www.tickettailor.com/event/view/id/162430
+      # Supply the number ONLY in `eventviewid`
+  
+  # Call for papers section
+  [params.callforpapers]
+    enable = true
+    title = "Call For Papers"
+    bg = false
+    CfSpage = "/satrdaykampala"
+      # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
+    dates = "30 April -  15 May 2019"
+
+  # Talk [Portfolio] section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Keynote Speakers"
+    #subtitle = "#"
+    bg = true
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+  # Schedule section
+  [params.schedule]
+    enable = true
+    title = "Schedule"
+    bg = false
+
+  # Important Dates [About] section
+  [params.about]
+    enable = true
+    title = "Important Dates"
+    subtitle = "Be prepared!"
+    endpoint = "Conference"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "April 15"
+      title = "Announcement and Registration starts"
+      description = "We're organising a conference!"
+
+    
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "30 April -  15 May 2019"
+      title = "Call For Speakers"
+      description = "Submissions for speakers are now open!"
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "16th May"
+      title = "Final Schedule"
+      description = "Attendants notified"
+  
+  # Location section
+  [params.location]
+    enable = true
+    title = "Outbox Hub 4th Floor Solix House, Lumumba Ave, Kampala"
+    bg = true
+    iframesrc = "https://www.google.com/maps/place/Outbox+Hub/@0.3228503,32.5741848,17z/data=!4m5!3m4!1s0x177dbb7a196c73c3:0xf3f534e6f1300573!8m2!3d0.3228449!4d32.5763789"
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Team"
+    subtitle = "#NairobiR Organizers"
+    bg = false
+    description = ""
+    #speakers = "Keynote Speakers"
+    
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "kigen.jpg"
+      name = "Kigen Tembu"
+      position = "Organizer"
+      
+      #livesIn = "[Kampala, Uganda](#some-maps-url)"
+     # scope = [
+      #  "Role 1 for [thing 1](#)",
+       # "Role 2 for [thing 2](#)",
+      #  "Role 3 for [thing 3](#)"
+     # ]
+      
+      social = [
+        ["fa-twitter", "https://twitter.com/kigtembu"],
+        ["fa-github", "#"]
+        
+      ]
+
+    [[params.team.members]]
+      img = "shel3.jpeg"
+      name = "Shelmith Kariuki"
+      position = "Co-organizer"
+      social = [
+        ["fa-twitter", "https://twitter.com/Shel_Kariuki"],
+        ["fa-github", "https://github.com/Shelmith-Kariuki"]
+        
+      ]
+
+    
+    [[params.team.members]]
+      img = "chris.jpg"
+      name = "Christopher Maronga"
+      position = "Co-organizer"
+      social = [
+        ["fa-twitter", "https://twitter.com/krissianyo"],
+        ["fa-github", "#"]
+      ]
+
+
+
+  # Client section
+  [params.clients_list]
+    enable = true
+    # Possibility to center items
+    #center = true
+    # Optional client title specifying the involvement
+    title = "Sponsors and Partners"
+    bg = true
+
+    # All the clients' logos are stored under 'static/img/logos'.
+    # Replace them with your clients's logos.
+    # Suggestion: .svg in the size of 280px*80px looks good
+    [[params.clients]]
+      logo = "nacosti.jpg"
+      link = "https://www.nacosti.go.ke/"
+
+    [[params.clients]]
+      logo = "sponsor_ph.jpg"
+      link = ""
+
+    [[params.clients]]
+      logo = "sponsor_ph.jpg"
+      link = ""
+      
+    [[params.clients]]
+      logo = "sponsor_ph.jpg"
+      link = ""
+      
+     [[params.clients]]
+      logo = "sponsor_ph.jpg"
+      link = ""
+      
+      [[params.clients]]
+      logo = "sponsor_ph.jpg"
+      link = ""
+
+      [[params.clients]]
+      logo = "sponsor_ph.jpg"
+      link = ""
+      
+      [[params.clients]]
+      logo = "sponsor_ph.jpg"
+      link = ""
+  [params.diversity]
+    enable = true
+    title = "Diversity"
+    bg = true
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = "Please fill in the required"
+    buttonText = "Send message"
+    # netlify = true
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "kariukishelmith@gmail.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    [params.contact.captcha]
+      # sitekey = ""
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Published under the Apache License 2.0."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/satrdays_org"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/satRdays"
+      title = "GitHub"
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"
