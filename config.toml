@@ -1,6 +1,6 @@
 theme = "hugo-agency-theme"
 # Site settings
-baseurl = "https://nairobi2019.satrdays.org/"
+baseurl = "/"
 languageCode = "en-us"
 title = "satRday"
 #theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
