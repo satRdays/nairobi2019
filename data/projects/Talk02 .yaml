@@ -1,15 +1,14 @@
-# modalID: 1
-title: "Person2"
-# subtitle: "ffff"
+modalID: 2
+title: "Samuel Kamande"
+subtitle: "Head of Data Science, Ajua (formerly mSurvey)"
 # date: 1970-01-01
-# startsAt: 00:00
-# endsAt: 00:01
+# startsAt: 00:01
+# endsAt: 00:02
 # img: norm.jpeg
-preview: face_ph.png
-client: 
-#clientLink: "http://stat.berkeley.edu/~ledell"
-# category: Category 1
-description: "[Personal Page]() | [Twitter]() <br>
-TBA
-"
+preview: kamande.jpeg
+client:  Ajua (formerly mSurvey)
+clientLink: "https://www.linkedin.com/in/kamande-wambui/"
+category: Speaker
+description: "[LinkedIn](https://www.linkedin.com/in/kamande-wambui/) | [Twitter](https://twitter.com/Kamandeh_) <br>
+TBA"
 talk: true

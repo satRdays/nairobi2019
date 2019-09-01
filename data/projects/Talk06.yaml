@@ -1,15 +1,16 @@
-# modalID: 1
-title: "Person6"
-# subtitle: "ffff"
+modalID: 6
+title: "Shelmith Kariuki"
+subtitle: "Data Analyst"
 # date: 1970-01-01
 # startsAt: 00:00
 # endsAt: 00:01
 # img: norm.jpeg
-preview: face_ph.png
+preview: shel2.jpeg
 client: 
 #clientLink: "http://stat.berkeley.edu/~ledell"
-# category: Category 1
-description: "[Personal Page]() | [Twitter]() <br>
+category: Speaker
+description: "[LinkedIn](https://www.linkedin.com/in/shelmith-kariuki-44351363/) | [Twitter](https://twitter.com/Shel_Kariuki) <br>
 TBA
 "
 talk: true
+
