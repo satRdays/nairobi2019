@@ -1,15 +1,15 @@
-# modalID: 1
-title: "Person3"
-# subtitle: "ffff"
+modalID: 3
+title: "Fridah Wanjala"
+subtitle: "Data Scientist, M-KOPA Solar"
 # date: 1970-01-01
 # startsAt: 00:00
 # endsAt: 00:01
 # img: norm.jpeg
-preview: face_ph.png
-client: 
+preview: Fridah.jpg
+client: M-KOPA Solar
 #clientLink: "http://stat.berkeley.edu/~ledell"
-# category: Category 1
-description: "[Personal Page]() | [Twitter]() <br>
+category: Speaker
+description: "[LinkedIn](https://www.linkedin.com/in/wanjala-fridah/) | [Twitter](https://twitter.com/fridahdafri) <br>
 TBA
 "
 talk: true

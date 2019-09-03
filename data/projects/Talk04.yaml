@@ -1,15 +1,15 @@
-# modalID: 1
-title: "Person4"
-# subtitle: "ffff"
+modalID: 4
+title: "Kigen Tembu"
+subtitle: "Data Scientist, MUSONI"
 # date: 1970-01-01
 # startsAt: 00:00
 # endsAt: 00:01
 # img: norm.jpeg
-preview: face_ph.png
-client: 
+preview: kigen.jpg
+client: MUSONI
 #clientLink: "http://stat.berkeley.edu/~ledell"
-# category: Category 1
-description: "[Personal Page]() | [Twitter]() <br>
+category: Speaker
+description: "[LinkedIn](https://www.linkedin.com/in/kigen-tembu-61097393/) | [Twitter](https://twitter.com/kigtembu) <br>
 TBA
 "
 talk: true

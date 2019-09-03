@@ -1,15 +1,20 @@
-# modalID: 1
-title: "Person6"
-# subtitle: "ffff"
+modalID: 6
+title: "Shelmith Kariuki"
+subtitle: "Data Analyst"
 # date: 1970-01-01
 # startsAt: 00:00
 # endsAt: 00:01
 # img: norm.jpeg
-preview: face_ph.png
+preview: shel2.jpeg
 client: 
 #clientLink: "http://stat.berkeley.edu/~ledell"
-# category: Category 1
-description: "[Personal Page]() | [Twitter]() <br>
-TBA
+category: Speaker
+description: "[LinkedIn](https://www.linkedin.com/in/shelmith-kariuki-44351363/) | [Twitter](https://twitter.com/Shel_Kariuki) <br>
+Shelmith Nyagathiri Kariuki is a Senior Data Analyst based in Kenya. 
+She is also a Zindi Ambassador for Kenya, where she furthers the Zindi mission of building the data science ecosystem in Africa. 
+She has previously worked as an assistant lecturer in various Kenyan universities, teaching units in Statistics and Actuarial Science. 
+She holds a Bsc in Actuarial Science and Msc in Applied Statistics from JKUAT. 
+Shelmith has extensive experience in data analysis using R and Python and is at the forefront of the AfricaR initiative, striving to achieve improved representation of Africans in the global R community by encouraging, inspiring, and empowering Africans of all genders.
 "
 talk: true
+

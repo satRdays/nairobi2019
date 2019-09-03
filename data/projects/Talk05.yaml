@@ -1,15 +1,16 @@
-# modalID: 1
-title: "Person5"
-# subtitle: "ffff"
+modalID: 5
+title: "Christopher Maronga"
+subtitle: "Data Manager, Kemri Wellcome Trust"
 # date: 1970-01-01
 # startsAt: 00:00
 # endsAt: 00:01
 # img: norm.jpeg
-preview: face_ph.png
-client: 
+preview: chris.jpg
+client: Kemri Wellcome Trust
 #clientLink: "http://stat.berkeley.edu/~ledell"
-# category: Category 1
-description: "[Personal Page]() | [Twitter]() <br>
+category: Speaker
+description: "[LinkedIn](https://www.linkedin.com/in/christopher-maronga-61031b7a/) | [Twitter](https://twitter.com/krissianyo) <br>
 TBA
 "
 talk: true
+

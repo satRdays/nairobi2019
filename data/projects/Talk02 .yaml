@@ -1,15 +1,29 @@
-# modalID: 1
-title: "Person2"
-# subtitle: "ffff"
+modalID: 2
+title: "Samuel Kamande"
+subtitle: "Head of Data Science, Ajua (formerly mSurvey)"
 # date: 1970-01-01
-# startsAt: 00:00
-# endsAt: 00:01
+# startsAt: 00:01
+# endsAt: 00:02
 # img: norm.jpeg
-preview: face_ph.png
-client: 
-#clientLink: "http://stat.berkeley.edu/~ledell"
-# category: Category 1
-description: "[Personal Page]() | [Twitter]() <br>
-TBA
-"
+preview: kamande.jpeg
+client:  Ajua (formerly mSurvey)
+clientLink: "https://www.linkedin.com/in/kamande-wambui/"
+category: Keynote Speaker
+description: "[LinkedIn](https://www.linkedin.com/in/kamande-wambui/) | [Twitter](https://twitter.com/Kamandeh_) <br>
+Kamande Wambui is currently the Head of Data Science at Ajua, the Integrated Customer Experience
+Platform. In this role, he provides data support for various products and develops new Data products
+to drive customer &amp; consumer understanding through advanced analytics and machine learning.
+These products leverage on integration of structured but high velocity engagement data from
+consumers and other data to provide an integrated view of the customer, inside and outside the
+business, creating deep analytics and feeding into retention and acquisition strategies. He is also a
+Data Science curriculum consultant with Moringa School.
+Kamande previously worked at Nielsen as a Data Science Associate for East Africa. He supported the
+Commercial team to deliver Quality Retail Data to clients and delivered technical consultancy on
+Data Science related retail audit queries across FMCG categories. He was also part of the Data
+Science Global Emerging Leaders program.
+He holds a Masters’ degree in Statistics and a Masters’ degree in Computational Intelligence from
+The University of Nairobi. He has published papers on understanding the Consumption and viewing
+habits of the Kenyan consumer by using various algorithms and locally available data in peer
+reviewed journals and presented at various conferences in Africa. He is also NPS certified and
+facilitates NPS masterclasses in Africa."
 talk: true

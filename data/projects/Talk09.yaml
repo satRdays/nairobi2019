@@ -1,15 +1,15 @@
-# modalID: 1
-title: "Person9"
-# subtitle: "ffff"
+modalID: 9
+title: "Margaret Wanjiru"
+subtitle: ""
 # date: 1970-01-01
 # startsAt: 00:00
 # endsAt: 00:01
 # img: norm.jpeg
-preview: face_ph.png
+preview: maggie.png
 client: 
 #clientLink: "http://stat.berkeley.edu/~ledell"
-# category: Category 1
-description: "[Personal Page]() | [Twitter]() <br>
+category: Speaker
+description: "[LinkedIn]() | [Twitter](https://twitter.com/magwanjiru) <br>
 TBA
 "
 talk: true
