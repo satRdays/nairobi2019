@@ -299,8 +299,8 @@ googleAnalytics = ""
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "nacosti.jpg"
-      link = "https://www.nacosti.go.ke/"
+      logo = "jumping2.png"
+      link = "https://www.jumpingrivers.com"
 
     [[params.clients]]
       logo = "sponsor_ph.jpg"
